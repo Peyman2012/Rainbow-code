@@ -37,7 +37,9 @@ This method is called rainbow hacking.
 The output of the generated numbers from "for" should be in the form of a string because the hash is in the form of a string to find the password
 
 
+
  for i in range(1000, 10000):
+ 
         hash_ = str(i)
         
         hash_256 = sha256(hash_.encode('utf-8')).hexdigest()
