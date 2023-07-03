@@ -16,3 +16,9 @@ SHA224 : This hash function belong to hash class SHA-2, the internal block size 
 SHA512 : This hash function belong to hash class SHA-2, the internal block size of it is 64 bits.
 SHA1 : The 160 bit hash function that resembles MD5 hash in working and was discontinued to be used seeing its security vulnerabilities.
 Explanation : The above code takes string and converts it into the byte equivalent using encode() so that it can be accepted by the hash function. The SHA hash functions encode it and then using hexdigest(), hexadecimal equivalent encoded string is printed.
+You are expected to be able to do the hacking project in this course; You have a csv file that is divided into two parts. One part of that name and the other part is a hash of the password.
+How to do the project:
+Hash is a one-way function that outputs y based on input x. But there is no mathematical formula to get from y to x. Its use is that you hash something and arrive at y.
+
+If someone hacks function x, they won't get your real password. We have different hash function. Each hash function works in a specific way. (As a note: all passwords are 4 digits and digits can be numbers 0 to 9. We also know that sha256 algorithm is used for hashing.) So it is expected that you can open this file and read the file information. Separate it and specify its name and password. In fact, it is enough to write a for loop that works from 0-9999, for example. Each time, it encodes the desired number with the above algorithm and returns a string, and compares this string with the codes given in the file, and if the number is equal, it stores this string as a password in the output.
+This method is called rainbow hacking.
