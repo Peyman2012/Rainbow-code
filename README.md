@@ -7,6 +7,7 @@ SHA, ( Secure Hash Algorithms ) are set of cryptographic hash functions defined 
 Functions associated :
 
  encode() : Converts the string into bytes to be acceptable by hash function.
+ 
  hexdigest() : Returns the encoded data in hexadecimal format.
  
 SHA Hash:
