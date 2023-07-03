@@ -1,4 +1,6 @@
 # Rainbow-code
+![image](https://github.com/Peyman2012/Rainbow-code/assets/88220773/814b2f6b-2d26-4951-8b74-126d84e3918a)
+
 Find password through hacked hash from server database
 SHA, ( Secure Hash Algorithms ) are set of cryptographic hash functions defined by the language to be used for various applications such as password security etc. Some variants of it are supported by Python in the “hashlib” library. These can be found using “algorithms_guaranteed” function of hashlib.
 encode() : Converts the string into bytes to be acceptable by hash function.
