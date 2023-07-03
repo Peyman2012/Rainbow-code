@@ -38,7 +38,7 @@ The output of the generated numbers from "for" should be in the form of a string
 
 
 
- for i in range(1000, 10000):
+        for i in range(1000, 10000):
  
         hash_ = str(i)
         
