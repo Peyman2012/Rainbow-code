@@ -44,6 +44,6 @@ The output of the generated numbers from "for" should be in the form of a string
         
             hash_256 = sha256(hash_.encode('utf-8')).hexdigest()
 
-Professional hackers put hash limits and password numbers in dict
+Professional hackers put hash limits and password numbers in dict :
 
         d_csv=dict(zip(list_name,list_hash))
