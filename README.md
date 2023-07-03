@@ -33,3 +33,9 @@ Hash is a one-way function that outputs y based on input x. But there is no math
 
 If someone hacks function x, they won't get your real password. We have different hash function. Each hash function works in a specific way. (As a note: all passwords are 4 digits and digits can be numbers 0 to 9. We also know that sha256 algorithm is used for hashing.) So it is expected that you can open this file and read the file information. Separate it and specify its name and password. In fact, it is enough to write a for loop that works from 0-9999, for example. Each time, it encodes the desired number with the above algorithm and returns a string, and compares this string with the codes given in the file, and if the number is equal, it stores this string as a password in the output.
 This method is called rainbow hacking.
+
+The output of the generated numbers from "for" should be in the form of a string because the hash is in the form of a string to find the password
+
+ for i in range(1000, 10000):
+        hash_ = str(i)
+        hash_256 = sha256(hash_.encode('utf-8')).hexdigest()
