@@ -4,13 +4,13 @@
 Find password through hacked hash from server database
 SHA, ( Secure Hash Algorithms ) are set of cryptographic hash functions defined by the language to be used for various applications such as password security etc. Some variants of it are supported by Python in the “hashlib” library. These can be found using “algorithms_guaranteed” function of hashlib.
 
-__Functions associated__ :
+__Functions associated :__
 
  encode() : Converts the string into bytes to be acceptable by hash function.
  
  hexdigest() : Returns the encoded data in hexadecimal format.
  
-SHA Hash:
+__SHA Hash:__
 
 The different SHA hash functions are explained below.
 
@@ -27,7 +27,7 @@ The different SHA hash functions are explained below.
 Explanation : The above code takes string and converts it into the byte equivalent using encode() so that it can be accepted by the hash function. The SHA hash functions encode it and then using hexdigest(), hexadecimal equivalent encoded string is printed.
 You are expected to be able to do the hacking project in this course; You have a csv file that is divided into two parts. One part of that name and the other part is a hash of the password.
 
-__How to do the project__:
+__How to do the project:__
 
 Hash is a one-way function that outputs y based on input x. But there is no mathematical formula to get from y to x. Its use is that you hash something and arrive at y.
 
