@@ -1,4 +1,4 @@
-# Rainbow-code
+# Rainbow code
 ![image](https://github.com/Peyman2012/Rainbow-code/assets/88220773/814b2f6b-2d26-4951-8b74-126d84e3918a)
 
 Find password through hacked hash from server database
@@ -27,7 +27,7 @@ The different SHA hash functions are explained below.
 Explanation : The above code takes string and converts it into the byte equivalent using encode() so that it can be accepted by the hash function. The SHA hash functions encode it and then using hexdigest(), hexadecimal equivalent encoded string is printed.
 You are expected to be able to do the hacking project in this course; You have a csv file that is divided into two parts. One part of that name and the other part is a hash of the password.
 
-How to do the project:
+__How to do the project__:
 
 Hash is a one-way function that outputs y based on input x. But there is no mathematical formula to get from y to x. Its use is that you hash something and arrive at y.
 
